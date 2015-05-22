@@ -17,204 +17,162 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-
   </head>
-	<body>
-
+  <body>
     <!-- Header -->
-      <div id="header">
-
-        <div class="top">
-
-          <!-- Logo -->
-            <div id="logo">
-              <!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span> -->
-              <h1 id="title">Full Stack Outdoors</h1>
-              <p>Hunting and Fishing stories from the Midwest</p>
-            </div>
-
-          <!-- Nav -->
-            <nav id="nav">
-              <!--
-
-                Prologue's nav expects links in one of two formats:
-
-                1. Hash link (scrolls to a different section within the page)
-
-                   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-                2. Standard link (sends the user to another page/site)
-
-                   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-              -->
-              <ul>
-                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-                <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Blog</span></a></li>
-                <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-                <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-                <li><a href="#social" id="social-link" class="skel-layers-ignoreHref"><span class="icon fa-thumbs-up">Follow</span></a></li>
-              </ul>
-            </nav>
-
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span> -->
+          <h1 id="title"><a href="#top" class="skel-layers-ignoreHref">Full Stack Outdoors</a></h1>
+          <p>Hunting and Fishing stories from the Midwest</p>
         </div>
-
-        <div class="bottom">
-
-          <!-- Social Icons -->
-            <ul class="icons">
-              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-              <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-              <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-
-        </div>
-
-      </div>
-
-    <!-- Main -->
-      <div id="main">
-
-        <!-- Intro -->
-          <section id="top" class="one dark cover">
-            <div class="container">
-
-              <header>
-                <h2 class="alt">Welcome to <strong>Full Stack Outdoors</strong></h2>
-                <p>Brought to your by Jason Swingen, a freelance developer with a passion for a the outdoors. Check out the most recent hunting and fishing stories below.</p>
-              </header>
-
-<!--               <footer>
-                <a href="#portfolio" class="button scrolly">Read Stories</a>
-              </footer> -->
-
-            </div>
-          </section>
-
-        <!-- Portfolio -->
-          <section id="portfolio" class="two">
-            <div class="container">
-
-             <!--  <header>
-                <h2>Blog</h2>
-              </header> -->
-
-              <!-- <p></p> -->
-
-              <div class="row">
-                <div class="6u 12u$(mobile)">
-                  <article class="item">
-                    <a href="/lake-superior-ice-fishing.html" class="image fit"><img src="images/Superior_Lake_Trout.jpg" alt="" /></a>
-                    <header>
-                      <h3>Lake Superior Ice Fishing</h3>
-                    </header>
-                  </article>
-                  <article class="item">
-                    <a href="#" class="image fit"><img src="images/2015-lake-trout.jpg" alt="" /></a>
-                    <header>
-                      <h3>Lake Superior Ice Fishing</h3>
-                    </header>
-                  </article>
-                </div>
-                <div class="6u 12u$(mobile)">
-                  <article class="item">
-                    <a href="#" class="image fit"><img src="images/Devils_Lake_Ice.jpg" alt="" /></a>
-                    <header>
-                      <h3>Devils Lake Ice Fishing</h3>
-                    </header>
-                  </article>
-                  <article class="item">
-                    <a href="#" class="image fit"><img src="images/2014-mule-deer.jpg" alt="" /></a>
-                    <header>
-                      <h3>Montana Deer Hunting</h3>
-                    </header>
-                  </article>
-                </div>
-              </div>
-
-            </div>
-          </section>
-
-        <!-- About Me -->
-          <section id="about" class="three">
-            <div class="container">
-
-              <header>
-                <h2>About Me</h2>
-              </header>
-
-              <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-              <p></p>
-
-            </div>
-          </section>
-
-        <!-- Contact -->
-          <section id="contact" class="four">
-            <div class="container">
-
-              <header>
-                <h2>Contact</h2>
-              </header>
-
-              <p>Have a hunting or fishing story you would like published? Let me know!</p>
-
-              <form method="post" action="#">
-                <div class="row">
-                  <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-                  <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-                  <div class="12u$">
-                    <textarea name="message" placeholder="Message"></textarea>
-                  </div>
-                  <div class="12u$">
-                    <input type="submit" value="Send Message" />
-                  </div>
-                </div>
-              </form>
-
-            </div>
-          </section>
-
-      </div>
-
-    <!-- Footer -->
-      <div id="footer">
-
-        <!-- Copyright -->
-          <ul class="copyright">
-            <li>&copy; Full Stack Outdoors. All rights reserved.</li><li>Built By: <a href="http://jasonswingen.com">Jason Swingen</a></li>
+        <!-- Nav -->
+        <nav id="nav">
+          <!--
+          Prologue's nav expects links in one of two formats:
+          1. Hash link (scrolls to a different section within the page)
+          <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+          2. Standard link (sends the user to another page/site)
+          <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+          -->
+          <ul>
+            <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+            <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Blog</span></a></li>
+            <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a></li>
+            <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+            <!-- <li><a href="#social" id="social-link" class="skel-layers-ignoreHref"><span class="icon fa-thumbs-up">Follow</span></a></li> -->
           </ul>
-
+        </nav>
       </div>
-
-		<!-- Scripts -->
-			<script src="/scripts/jquery.min.js"></script>
-			<script src="/scripts/jquery.scrollzer.min.js"></script>
-			<script src="/scripts/jquery.scrolly.min.js"></script>
-			<script src="/scripts/skel.min.js"></script>
-			<script src="/scripts/util.js"></script>
-			<script src="/scripts/main.js"></script>
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-	</body>
+      <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+          <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+          <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+          <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+          <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <header>
+            <h2 class="alt">Welcome to <strong>Full Stack Outdoors</strong></h2>
+            <p>Brought to you by <a target="_blank" href="http://jasonswingen.com">Jason Swingen</a>, a freelance developer with a passion for a the outdoors. Check out the most recent hunting and fishing stories below.</p>
+          </header>
+          <!--               <footer>
+            <a href="#portfolio" class="button scrolly">Read Stories</a>
+          </footer> -->
+        </div>
+      </section>
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <!--  <header>
+            <h2>Blog</h2>
+          </header> -->
+          <!-- <p></p> -->
+          <div class="row">
+            <div class="6u 12u$(mobile)">
+              <article class="item">
+                <a href="/lake-superior-ice-fishing.html" class="image fit"><img src="images/Superior_Lake_Trout.jpg" alt="" /></a>
+                <header>
+                  <h3>Lake Superior Ice Fishing</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"><img src="images/2015-lake-trout.jpg" alt="" /></a>
+                <header>
+                  <h3>Lake Superior Ice Fishing</h3>
+                </header>
+              </article>
+            </div>
+            <div class="6u 12u$(mobile)">
+              <article class="item">
+                <a href="#" class="image fit"><img src="images/Devils_Lake_Ice.jpg" alt="" /></a>
+                <header>
+                  <h3>Devils Lake Ice Fishing</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"><img src="images/2014-mule-deer.jpg" alt="" /></a>
+                <header>
+                  <h3>Montana Deer Hunting</h3>
+                </header>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Me -->
+      <section id="about" class="three">
+        <div class="container">
+<!--           <header>
+            <h2>About Me</h2>
+          </header> -->
+          <!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste dolores iure quis excepturi, deserunt praesentium saepe in hic fugiat facere esse placeat, neque similique aut! Aut ad magnam provident, amet.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ea voluptates tempora libero debitis perspiciatis cumque quaerat, voluptatum illum modi vitae, excepturi pariatur quis illo, quisquam tenetur odio aperiam assumenda.</p>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <div class="container">
+<!--           <header>
+            <h2>Contact</h2>
+          </header> -->
+          <p>Have a hunting or fishing story you would like published? Let me know!</p>
+          <form method="post" action="#">
+            <div class="row">
+              <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+              <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+              <div class="12u$">
+                <textarea name="message" placeholder="Message"></textarea>
+              </div>
+              <div class="12u$">
+                <input type="submit" value="Send Message" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; Full Stack Outdoors. All rights reserved.</li><li>Built By: <a href="http://jasonswingen.com">Jason Swingen</a></li>
+      </ul>
+      <!-- Scripts -->
+      <script src="/scripts/jquery.min.js"></script>
+      <script src="/scripts/jquery.scrollzer.min.js"></script>
+      <script src="/scripts/jquery.scrolly.min.js"></script>
+      <script src="/scripts/skel.min.js"></script>
+      <script src="/scripts/util.js"></script>
+      <script src="/scripts/main.js"></script>
+      <!-- build:js(.) scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+      <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
+    </div>
+  </body>
 </html>
